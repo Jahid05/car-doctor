@@ -10,7 +10,7 @@ const Banner = () => {
   return (
     <div className="carousel w-full">
       <div id="slide1" className="carousel-item relative h-[700px] w-full">
-        <img src={image5} className="w-full rounded-2xl" />
+        <img src={image5} className="w-full h-full rounded-2xl" />
         <div className="absolute top-0  flex items-center h-full w-full bg-gradient-to-r from-[rgba(8,8,8,0.69)] to-[rgba(0,0,0,0.32)] rounded-2xl">
           <div className="text-white space-y-9 ml-32 w-1/3">
             <h1 className="text-6xl font-bold">
@@ -38,8 +38,8 @@ const Banner = () => {
           </a>
         </div>
       </div>
-      <div id="slide2" className="carousel-item relative h-[800px] w-full">
-        <img src={image2} className="w-full rounded-2xl" />
+      <div id="slide2" className="carousel-item relative h-[700px] w-full">
+        <img src={image2} className="w-full h-full rounded-2xl" />
         <div className="absolute flex justify-end transform -translate-y-1/2 left-5 right-5 bottom-0">
           <a
             href="#slide1"
@@ -55,8 +55,8 @@ const Banner = () => {
           </a>
         </div>
       </div>
-      <div id="slide3" className="carousel-item relative h-[800px] w-full">
-        <img src={image3} className="w-full rounded-2xl" />
+      <div id="slide3" className="carousel-item relative h-[700px] w-full">
+        <img src={image3} className="w-full h-full rounded-2xl" />
         <div className="absolute flex justify-end transform -translate-y-1/2 left-5 right-5 bottom-0">
           <a
             href="#slide2"
@@ -72,8 +72,8 @@ const Banner = () => {
           </a>
         </div>
       </div>
-      <div id="slide4" className="carousel-item relative h-[800px] w-full">
-        <img src={image4} className="w-full rounded-2xl" />
+      <div id="slide4" className="carousel-item relative h-[700px] w-full">
+        <img src={image4} className="w-full h-full rounded-2xl" />
         <div className="absolute flex justify-end transform -translate-y-1/2 left-5 right-5 bottom-0">
           <a
             href="#slide3"
@@ -89,8 +89,8 @@ const Banner = () => {
           </a>
         </div>
       </div>
-      <div id="slide5" className="carousel-item relative h-[800px] w-full">
-        <img src={image1} className="w-full rounded-2xl" />
+      <div id="slide5" className="carousel-item relative h-[700px] w-full">
+        <img src={image1} className="w-full h-full rounded-2xl" />
         <div className="absolute flex justify-end transform -translate-y-1/2 left-5 right-5 bottom-0">
           <a
             href="#slide4"
@@ -106,8 +106,8 @@ const Banner = () => {
           </a>
         </div>
       </div>
-      <div id="slide6" className="carousel-item relative h-[800px] w-full">
-        <img src={image6} className="w-full rounded-2xl" />
+      <div id="slide6" className="carousel-item relative h-[700px] w-full">
+        <img src={image6} className="w-full h-full rounded-2xl" />
         <div className="absolute flex justify-end transform -translate-y-1/2 left-5 right-5 bottom-0">
           <a
             href="#slide5"

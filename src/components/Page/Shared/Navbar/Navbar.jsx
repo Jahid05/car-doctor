@@ -75,9 +75,11 @@ const Navbar = () => {
             <FaShoppingCart></FaShoppingCart>
           </button>
         </div>
-        <a className="btn normal-case btn-outline border-theme-100 text-theme-100 ease-in duration-300">
-          Appointment
-        </a>
+        <NavLink to="login">
+          <label htmlFor="my-modal-3" className="btn normal-case btn-outline border-theme-100 text-theme-100 ease-in duration-300">Appointment</label>
+        </NavLink>
+        
+        
       </div>
     </div>
   );
